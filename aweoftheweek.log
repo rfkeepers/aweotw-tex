@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.28)  30 NOV 2020 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.28)  30 NOV 2020 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/fryr/TexDocs/aweotw-tex/test.tex
-(/home/fryr/TexDocs/aweotw-tex/test.tex
+**/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex
+(/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-03> (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2020/06/02 v3.7l configurable book, report, article document class
@@ -743,7 +743,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count335
 \l__pdf_internal_box=\box113
-) (/home/fryr/TexDocs/aweotw-tex/test.aux)
+) (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
@@ -830,7 +830,7 @@ LaTeX Info: Redefining \nameref on input line 23.
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
-(/home/fryr/TexDocs/aweotw-tex/test.out) (/home/fryr/TexDocs/aweotw-tex/test.out)
+(/home/fryr/TexDocs/aweotw-tex/aweoftheweek.out) (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.out)
 \@outlinefile=\write7
 \GPT@outputbox=\box116
  [1
@@ -924,22 +924,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
- (/home/fryr/TexDocs/aweotw-tex/test.aux)
+ (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
-Package rerunfilecheck Info: File `test.out' has not changed.
+Package rerunfilecheck Info: File `aweoftheweek.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  19783 strings out of 480478
- 352872 string characters out of 5905958
- 662412 words of memory out of 5000000
+ 353008 string characters out of 5905958
+ 662420 words of memory out of 5000000
  35480 multiletter control sequences out of 15000+600000
  543759 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,11n,75p,914b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,11n,75p,922b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on /home/fryr/TexDocs/aweotw-tex/test.pdf (7 pages, 191623 bytes).
+Output written on /home/fryr/TexDocs/aweotw-tex/aweoftheweek.pdf (7 pages, 191623 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream

@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1606758309 "/home/fryr/TexDocs/aweotw-tex/test.tex" "/home/fryr/TexDocs/aweotw-tex/test.pdf" "test" 1606758311
-  "/home/fryr/TexDocs/aweotw-tex/test.aux" 1606758311 757 5dc1082f6f9020e4e913beae82ec4ce4 ""
-  "/home/fryr/TexDocs/aweotw-tex/test.tex" 1606758309 19708 770b3e63a6ca6c97552e61db2cc968a0 ""
+["pdflatex"] 1606758978 "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex" "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.pdf" "aweoftheweek" 1606758989
+  "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.aux" 1606758979 757 5dc1082f6f9020e4e913beae82ec4ce4 ""
+  "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex" 1606758977 19708 770b3e63a6ca6c97552e61db2cc968a0 ""
   "/home/fryr/texmf/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/home/fryr/texmf/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
   "/home/fryr/texmf/tex/latex/tcolorbox/tcolorbox.sty" 1602274907 87902 ee89fc2f39c9b113b38f3050b23a3c2e ""
@@ -152,13 +152,13 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1606594153 4722356 60f8092fbd5930fd9596de2a7c89a5cb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1606594148 2514046 099d447704ebb01a542ef2bc85d42608 ""
-  "test.aux" 1606758311 757 5dc1082f6f9020e4e913beae82ec4ce4 "pdflatex"
-  "test.out" 1606758310 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "test.tex" 1606758309 19708 770b3e63a6ca6c97552e61db2cc968a0 ""
+  "aweoftheweek.aux" 1606758979 757 5dc1082f6f9020e4e913beae82ec4ce4 "pdflatex"
+  "aweoftheweek.out" 1606758978 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "aweoftheweek.tex" 1606758977 19708 770b3e63a6ca6c97552e61db2cc968a0 ""
   (generated)
-  "test.log"
-  "test.out"
-  "test.aux"
-  "/home/fryr/TexDocs/aweotw-tex/test.pdf"
-  "/home/fryr/TexDocs/aweotw-tex/test.log"
-  "test.pdf"
+  "aweoftheweek.aux"
+  "aweoftheweek.pdf"
+  "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.log"
+  "/home/fryr/TexDocs/aweotw-tex/aweoftheweek.pdf"
+  "aweoftheweek.log"
+  "aweoftheweek.out"
