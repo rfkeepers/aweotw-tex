@@ -12,9 +12,11 @@
 \usepackage{tcolorbox}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{aweotwplaybook}
 
 % formatting
-\usepackage[lmargin=12mm,rmargin=12mm,bmargin=12mm,tmargin=16mm,bindingoffset=0mm,heightrounded]{geometry}
+\usepackage[bindingoffset=0mm,heightrounded]{geometry}
 
 % import me last
 \usepackage[colorlinks=true]{hyperref}
@@ -27,24 +29,21 @@
 \pagecolor{black}
 \color{white}
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 \setlength\columnsep{8mm}
-
-\hypersetup{
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
+%
+\hypersetup{linkcolor=blue,urlcolor=cyan}
 \urlstyle{same}
-
-\titleformat 
-{\chapter}
-[display]
-{\bfseries\LARGE}
-{\thechapter}
-{0mm}
-{\vspace{-8mm}}
-[\vspace{-8mm}]
-
+%
+\titleformat%
+{\chapter}%
+[display]%
+{\bfseries\LARGE}%
+{\thechapter}%
+{0mm}%
+{\vspace{-8mm}}%
+[\vspace{-8mm}]%
+%
 \tcbset{
     colframe=blue!50!white,
     colback=black,
@@ -54,17 +53,17 @@
     right=8mm,
     left=4mm,
 }
-
+%
 \setlist{
     leftmargin=8mm,
     itemsep=0mm,
     parsep=1mm,
     partopsep=0mm,
 }
-
+%
 % custom commands
-\newcommand{\move}[2]{\textbf{\normalsize #1}\\[4mm]{\footnotesize #2}}
-\newcommand{\movecat}[1]{{\small #1}}
+\newcommand{\goof}[2]{\textbf{\normalsize #1}\\[4mm]{\footnotesize #2}}
+\newcommand{\goofcat}[1]{{\small #1}}
 \newcommand{\whitespace}[1]{\phantom{.}\\[#1mm]}
 \newcommand{\pboverview}[2]{\textbf{\normalsize #1: }{\footnotesize #2}\\[2mm]}
 
@@ -74,16 +73,28 @@
 \begin{center}
 
 \phantom{.} % necessary to add space on top before the title
-\vspace{3cm}
+\vspace{1cm}
 
 \textbf{\Huge \@title}
-\vspace{2.5cm}
+\vspace{1cm}
 
 {\Large \@author}\\[0.25cm]
 
-{\large\@date}
+{\large \@date}
 
-\vspace{6.5cm}
+\vspace{1.5cm}
+\begin{tikzpicture}
+% inner
+\draw[white, ultra thick] (-1.5,2.5) -- (2.5,-5);
+\draw[white, ultra thick] (2.5,-5) -- (6.5,2.5);
+% outer
+\draw[white, ultra thick] (-2.5,2.5) -- (2.5,-5);
+\draw[white, ultra thick] (2.5,-5) -- (7.5,2.5);
+% top
+\draw[white, ultra thick] (-2.5,2.5) -- (7.5,2.5);
+\end{tikzpicture}
+
+\vspace{1cm}
 If you have questions or comments,\\feel free to contact me at \href{mailto:innumerable.engines@gmail.com}{innumerable.engines@gmail.com}\\[1cm]
 Derived from Monster of the Week by Michael Sands.\\
 Approved for use with Monster of the Week.\\
@@ -125,10 +136,10 @@ If you haven’t played Monster of the Week yet, but you’re looking to play a 
 
 \end{multicols}
 \pagebreak
-
-
+%
+%
 % Theme and Setting ---------------------------------------
-
+%
 \chapter*{Theme, Changes, and Altered World Events}
 \begin{multicols}{2}
 
@@ -180,85 +191,85 @@ Michael Sands has already written a fantastic guide for what makes a good, paran
 
 \end{multicols}
 \pagebreak
-
+%
+%
 % Basic Moves ---------------------------------------
+%
 \chapter*{Basic Move Updates}
 \begin{multicols}{4}
-\move
-{Investigate a Mystery}
-{When you \textbf{investigate a mystery}, roll +Sharp. On a 10+ hold 2, and on a 7-9 hold 1. One hold can be spent to ask the Keeper one of the following questions:
-\begin{itemize}
-\item What happened here?
-\item What could do something like this?
-\item Are we in danger right now?
-\item How difficult will it be to contain?
-\item Where did it go?
-\item Who is it connected to?
-\item What is being concealed here?
-\end{itemize}}
-
-\whitespace{1}
-
-\move
-{Fringe Science (replaces Big Magic)}
-{When you want to \textbf{create or adapt a device} to analyse, deal with, or produce a paranormal phenomenon, tell the Keeper what you want to do and roll +Weird.  On a 10+ pick two guarantees.  On a 7-9, pick one.
-\\[2mm]
-
-\movecat{The Keeper may choose one or more requirements:}
-\begin{itemize}
-\item You’ll have to spend a lot of time (days or weeks) doing research.
-\item You need to experiment first; expect lots of failures before you get it right.
-\item You need some rare and weird ingredients, supplies, or equipment.
-\item After it starts up, it’ll take time before it reaches the full effect.
-\item It requires huge amounts of power or fuel.
-\item You need a lot of people to help out.
-\item The ritual needs to be done at a particular place and/or time.
-\item It will have a specific side-effect or danger.
-\end{itemize}
-
-\movecat{Then you pick your guarantees:}
-\begin{itemize}
-\item Once started, it cannot be stopped easily.
-\item It does exactly what you intended, and only what you intended.
-\item It doesn’t draw attention or make you any more obvious than you already are.
-\end{itemize}}
-
-\columnbreak
-
-\move
-{Ritual (replaces Use Magic)}
-{When you \textbf{perform a ritual to invoke or placate the paranormal}, say what you’re trying to achieve and how you do it, then roll +Weird.  10+ it worked without issues, choose your effect.  7-9: It worked imperfectly.  Choose one effect and one glitch.
-\\[2mm]
+\begin{pbsect}{Investigate a Mystery}[]
+When you \textbf{investigate a mystery}, roll +Sharp. On a 10+ hold 2, and on a 7-9 hold 1. One hold can be spent to ask the Keeper one of the following questions:
+\holdoptions%
+    {What happened here?,
+    What could do something like this?,
+    Are we in danger right now?,
+    How difficult will it be to contain?,
+    Where did it go?,
+    Who is it connected to?,
+    What is being concealed here?}
+\end{pbsect}
+%
+\begin{pbsect}{Fringe Science (replaces Big Magic)}
+When you want to \textbf{create or adapt a device} to analyse, deal with, or produce a paranormal phenomenon, tell the Keeper what you want to do and roll +Weird.  On a 10+ pick two guarantees.  On a 7-9, pick one.
+\br[2mm]
+%
+Advanced: 12+ take all three guarantees, or two guarantees and the Keeper adds another benefit.
+\end{pbsect}%
+\br[2mm]
+%
+\begin{blurb*}{The Keeper may choose one or more requirements:}%
+\holdoptions%
+    {{You’ll have to spend a lot of time (days or weeks) doing research.},
+    {You need to experiment first; expect lots of failures before you get it right.},
+    {You need some rare and weird ingredients, supplies, or equipment.},
+    {After it starts up, it’ll take time before it reaches the full effect.},
+    {It requires huge amounts of power or fuel.},
+    {You need a lot of people to help out.},
+    {The ritual needs to be done at a particular place and/or time.},
+    {It will have a specific side-effect or danger.}}
+\end{blurb*}
+%
+\begin{blurb*}{Then you pick your guarantees:}
+\holdoptions%
+    {{Once started, it cannot be stopped easily.},
+    {It does exactly what you intended, and only what you intended.},
+    {It doesn’t draw attention or make you any more obvious than you already are.}}
+\end{blurb*}
+%
+\begin{pbsect}{Ritual (replaces Use Magic)}
+When you \textbf{perform a ritual to invoke or placate the paranormal}, say what you’re trying to achieve and how you do it, then roll +Weird.  10+ it worked without issues, choose your effect.  7-9: It worked imperfectly.  Choose one effect and one glitch.
+\brln
+%
 Advanced: 12+ the Keeper adds some benefit.
-\\[2mm]
+\end{pbsect}
+%
+\begin{blurb*}{Effects:}
+\holdoptions%
+    {{Bar a place or portal to a specific person, item, or entity.},
+    {Trap a person, altered item, or entity.},
+    {Calm or satisfy a paranormal item or entity.},
+    {Communicate with something that you do not share a language with.},
+    {Observe another place or time.}}
+\end{blurb*}
+%
+\begin{blurb*}{Glitches:}
+\holdoptions%
+    {{The effect is weakened.},
+    {The effect has a short duration.},
+    {You take 1-harm psychic ignore-armor.},
+    {The ritual draws immediate, unwelcome attention.},
+    {There’s a problematic side effect.}}
+\end{blurb*}
 
-\movecat{Effects:}
-\begin{itemize}
-\item Bar a place or portal to a specific person, item, or entity.
-\item Trap a person, altered item, or entity.
-\item Calm or satisfy a paranormal item or entity.
-\item Communicate with something that you do not share a language with.
-\item Observe another place or time.
-\end{itemize}
-
-\movecat{Glitches:}
-\begin{itemize}
-\item The effect is weakened.
-\item The effect has a short duration.
-\item You take 1-harm psychic ignore-armor.
-\item The ritual draws immediate, unwelcome attention.
-\item There’s a problematic side effect.
-\end{itemize}
-
-\movecat{The Keeper may say that…}
-\begin{itemize}
-\item The ritual requires rare or weird materials.
-\item The ritual will take extra time to perform.
-\item The ritual requires you to focus your attention on \_\_\_\_\_\_\_.
-\item The ritual requires you to set up some equipment.
-\item You need one or two more people to help you out.
-\item You need to refer to some prior research for the details.
-\end{itemize}}
+\begin{blurb*}{The Keeper may say that…}
+\holdoptions%
+    {{The ritual requires rare or weird materials.},
+    {The ritual will take extra time to perform.},
+    {The ritual requires you to focus your attention on \rule{0.3\linewidth}{0.4pt}.},
+    {The ritual requires you to set up some equipment.},
+    {You need one or two more people to help you out.},
+    {You need to refer to some prior research for the details.}}
+\end{blurb*}
 
 \end{multicols}
 \pagebreak
@@ -303,10 +314,39 @@ Advanced: 12+ the Keeper adds some benefit.
 \end{multicols}
 \pagebreak
 
+% Setting font size for playbooks...
+\fontsize{10}{12}\selectfont
+
 % The Director ---------------------------------------
+\include{director}
+\pagebreak
+
+% The Investigator ---------------------------------------
+\include{investigator}
+\pagebreak
+
+% The Ranger ---------------------------------------
+\include{ranger}
+\pagebreak
+
+% The Janitor ---------------------------------------
+\include{janitor}
+\pagebreak
+
+% The Researcher ---------------------------------------
+\include{researcher}
+\pagebreak
+
+% The Outsider ---------------------------------------
+\include{outsider}
+\pagebreak
+
+% The Psychic ---------------------------------------
+\include{psychic}
 \pagebreak
 
 % Links ---------------------------------------
+\fontsize{12}{14}\selectfont
 \chapter*{Useful Links}
 \begin{itemize}
 
@@ -315,6 +355,7 @@ Advanced: 12+ the Keeper adds some benefit.
 \item \textbf{About Monster of the Week:} \url{https://www.genericgames.co.nz/motw/}
 \item \textbf{MotW resources:} \url{https://www.evilhat.com/home/monster-of-the-week-resources/}
 \item \textbf{MotW More Weirdness:} \url{https://genericgames.co.nz/files/MotW_more_weirdness.pdf/}
+\item \textbf{{\LaTeX} source code for this PDF:} \url{https://github.com/rfkeepers/aweotw-tex}
 
 \end{itemize}
 \pagebreak

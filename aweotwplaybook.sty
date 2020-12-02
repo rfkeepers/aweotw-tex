@@ -1,2 +1,302 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{aweotwplaybook}[2020/11/30 AWE of the Week Playbook Package]
+
+% imports
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{xcolor}
+\RequirePackage{multicol}
+\RequirePackage{tcolorbox}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage{tikz}
+\RequirePackage{changepage}
+\RequirePackage{vwcol}
+\RequirePackage{xargs}
+\RequirePackage{ragged2e}
+
+% formatting
+\definecolor{ratingcolor}{HTML}{FFFFFF}
+
+\usepackage[lmargin=12mm,rmargin=12mm,bmargin=12mm,tmargin=16mm,bindingoffset=0mm,heightrounded]{geometry}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength\columnsep{8mm}
+
+\titleformat
+{\chapter}
+[display]
+{\bfseries\LARGE}
+{\thechapter}
+{0mm}
+{\vspace{-8mm}}
+[\vspace{-8mm}]
+\tcbset{
+    colframe=blue!50!white,
+    colback=black,
+    coltext=white,
+    top=4mm,
+    bottom=8mm,
+    right=8mm,
+    left=4mm,
+}
+
+\setlist{
+    leftmargin=8mm,
+    itemsep=0mm,
+    parsep=1mm,
+    partopsep=0mm,
+}
+
+\newcommand{\br}[1][1pt]{\phantom{.}\\[#1]}
+\newcommand{\brln}{\phantom{.}\\}
+
+% checkboxes
+\newcommand{\checkbox}[1][1]{\foreach \n in {1,...,#1}{
+    \begin{tikzpicture}
+    \draw[ratingcolor] (0,0) rectangle (0.25,0.25);
+    \end{tikzpicture}
+}}
+\newcommand{\checkedbox}[1][1]{\foreach \n in {1,...,#1}{
+    \begin{tikzpicture}
+    \filldraw[ratingcolor, fill=ratingcolor] (0,0) rectangle (0.25,0.25);
+    \end{tikzpicture}
+}}
+
+% playbook sections
+\newcommand{\pbsecttitle}[1]{\textbf{\normalsize #1}}
+
+\newenvironmentx{pbsect}[3][2={\br[3mm]},3={\br[2mm]}]
+    {#2
+    \pbsecttitle{#1}
+    #3
+    \footnotesize}
+    {\normalsize}
+
+\newenvironment{pbsect*}[1]
+    {\br[3mm]
+    \pbsecttitle{#1}
+    \footnotesize}
+    {\normalsize}
+
+\newenvironment{blurb}[1]
+    {\textbf{#1}\\}
+    {}
+
+\newenvironment{blurbparen}[2]
+    {\textbf{#1} (#2):\\}
+    {}
+
+\newenvironment{blurb*}[1]
+    {\footnotesize
+    \textbf{#1}\\}
+    {\normalsize}
+
+\newcommand{\moveexp}[2]%
+    {\begin{pbsect}{MOVES}[]
+    \textit{You get the basic moves, plus #1 #2 moves.}
+    \end{pbsect}}
+
+\newcommand{\moveexpembedded}[2]%
+    {\begin{pbsect}{MOVES}
+    \textit{You get the basic moves, plus #1 #2 moves.}
+    \end{pbsect}}
+
+% ratings
+\newcommand{\rating}[2]%
+    {\br[1mm]
+    \begin{minipage}{0.125\textwidth}
+    \begin{tikzpicture}
+    \draw[ratingcolor, very thick] (-0.25,0.25) -- (0.25,-0.5);
+    \draw[ratingcolor, very thick] (0.25,-0.5) -- (0.75,0.25);
+    \draw[ratingcolor, very thick] (-0.25,0.25) -- (0.75,0.25);
+    \end{tikzpicture}
+    \end{minipage}
+    \begin{minipage}{0.325\textwidth}
+    {\Large \uppercase{#1}}
+    \end{minipage}
+    \begin{minipage}{0.475\textwidth}
+    \begin{itemize}[leftmargin=*,parsep=-0.75mm]
+    \foreach \im in {#2} {{\item \textit{\footnotesize \im}}}
+    \end{itemize}
+    \end{minipage}}
+
+\newcommand{\ratings}%
+    {\rating{Charm}{Manipulate Someone}
+    \rating{Cool}{Act Under Pressure,Help Out}
+    \rating{Sharp}{Investigate a Mystery,Read a Bad Situation}
+    \rating{Tough}{Kick Some Ass,Protect Someone}
+    \rating{Weird}{Ritual,Fringe Science}\\}
+
+% luck
+\newcommand{\luck}[2]%
+    {\begin{pbsect}{LUCK}
+    Mark luck to change a roll to 12 or avoid all harm from an injury.
+    \begin{center}
+    Okay \checkbox[7] Doomed
+    \end{center}
+    \textbf{#1 special:} #2
+    \end{pbsect}}
+
+% harm
+\newcommand{\harm}%
+    {\begin{pbsect}{HARM}
+    When you reach 4 or more, mark unstable.
+    \begin{center}
+    Okay \checkbox[3]|\checkbox[4] Dying\\[1mm]
+    Unstable: \checkbox
+    \end{center}
+    \end{pbsect}}
+
+% experience
+\newcommand{\experience}%
+    {\begin{pbsect}{EXPERIENCE}[][]
+    \begin{center}
+    \textit{Experience}: \checkbox[5]
+    \end{center}
+    Whenever you roll and get a total of 6 or less, or when a move tells you to, mark an experience box.
+    \end{pbsect}}
+
+% introductions and history
+\newcommand{\introductions}[1]%
+    {\begin{pbsect}{INTRODUCTIONS}
+    When you get here, wait for everyone to catch up so you can do your introductions together.
+    \br[1mm]
+    Go around the group. On your turn, introduce your #1 by name and look, and tell the group what they know about you.
+    \end{pbsect}}
+
+\newcommand{\history}[1]%
+    {\begin{pbsect}{HISTORY}
+    Go around the group again. On your turn, pick one of these for each other agent:
+    \begin{itemize}
+    \foreach \hist in {#1} {{\item {\hist}}}
+    \end{itemize}
+    \end{pbsect}}
+
+% advancement
+\newcommand{\levelingup}%
+    {\begin{pbsect}{LEVELING UP}[]
+    When you have filled all five experience boxes, you level up. Erase the marks and pick an improvement from the following list:        
+    \end{pbsect}}
+
+\newcommand{\improvements}[2]%
+    {\begin{pbsect}{IMPROVEMENTS}
+    \optionslisttwocol{#1}
+    \end{pbsect}%
+    \brln
+    After you have leveled up five times, you qualify for advanced improvements in addition to these. They’re below.
+    \begin{pbsect}{ADVANCED IMPROVEMENTS}
+    \optionslist{#2}
+    \end{pbsect}}
+
+\newcommand{\improvementsonecol}[2]%
+    {\begin{pbsect}{IMPROVEMENTS}
+    \optionslist{#1}
+    \end{pbsect}%
+    \brln
+    After you have leveled up five times, you qualify for advanced improvements in addition to these. They’re below.
+    \begin{pbsect}{ADVANCED IMPROVEMENTS}
+    \optionslist{#2}
+    \end{pbsect}}
+
+% playbook formatting
+\newcommand{\playbookpage}[3]%
+    {\begin{vwcol}[widths={0.3,0.3,0.3},sep=28mm]
+    %\begin{minipage}[t]{1\textwidth}
+    \begin{minipage}[t][0.5\textheight][t]{0.32\textwidth}#1\vfill\end{minipage}
+    \begin{minipage}[t][0.5\textheight][t]{0.32\textwidth}#2\vfill\end{minipage}
+    \begin{minipage}[t][0.5\textheight][t]{0.32\textwidth}#3\vfill\end{minipage}
+    %\end{minipage}
+    \end{vwcol}}
+
+\newcommand{\pbcommon}[3]%
+    {\br[8mm]
+    \noindent\rule{1\textwidth}{1pt},
+    \\[3mm]
+    {\Huge \uppercase{The #1}}\\
+    \begin{adjustwidth}{4mm}{0mm}
+    \textit{\footnotesize #2}
+    \end{adjustwidth}
+    \ratings
+    \luck{#1}{#3}
+    \harm
+    \experience}
+
+% moves
+\newenvironment{move}[2][\brln]%
+    {#1
+    \begin{minipage}[t]{0.05\linewidth}
+    \checkbox
+    \end{minipage}
+    \begin{minipage}[t]{0.94\linewidth}
+    \justify
+    \textbf{\normalsize #2:}}%
+    % filler
+    {\flushleft
+    \end{minipage}}
+
+\newenvironment{move*}[2][\brln]%
+    {#1
+    \begin{minipage}[t]{0.05\linewidth}
+    \checkedbox
+    \end{minipage}
+    \begin{minipage}[t]{0.94\linewidth}
+    \justify
+    \textbf{\normalsize #2:}}%
+    % filler
+    {\flushleft
+    \end{minipage}}
+
+% listing options
+\newcommand{\opt}[1]%
+    {\begin{minipage}[t]{0.05\linewidth}
+    \checkbox
+    \end{minipage}
+    \begin{minipage}[t]{0.94\linewidth}
+    #1
+    \end{minipage}}
+
+\newcommand{\opthalf}[1]%
+    {\begin{minipage}[t]{0.1\linewidth}
+    \checkbox
+    \end{minipage}
+    \begin{minipage}[t]{0.89\linewidth}
+    \begin{flushleft}#1\end{flushleft}
+    \end{minipage}}
+
+\newcommand{\optionslist}[1]%
+    {\foreach \lo [count=\co] in {#1} {%
+        \ifnum\co>1%
+        \\[1pt]%
+        \fi%
+        \opt{\lo}}}
+
+\newcommand{\optionslisttwocol}[1]%
+    {\setlength\columnsep{4mm}
+    \begin{multicols}{2}
+    \foreach \tlo [count=\co] in {#1} {%
+        \ifnum\co>1%
+        \\[1pt]%
+        \fi%
+        \opthalf{\tlo}}
+    \end{multicols}
+    \setlength\columnsep{8mm}}
+
+\newcommand{\optionsparen}[3]%
+    {\textbf{#1} (#2):\\[1mm]
+    \optionslist{#3}}
+
+\newcommand{\optionsblurb}[3]%
+    {\textbf{#1}:\\
+    #2\\[2mm]
+    \optionslist{#3}}
+
+\newcommand{\optionstwocolparen}[3]%
+    {\textbf{#1} (#2):\\
+    \optionslisttwocol{#3}}
+
+\newcommand{\holdoptions}[1]%
+    {\begin{itemize}[parsep=0mm]
+    \foreach \ho in {#1} {{\item \ho}}
+    \end{itemize}}
