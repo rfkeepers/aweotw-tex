@@ -166,13 +166,11 @@
     Go around the group. On your turn, introduce your #1 by name and look, and tell the group what they know about you.
     \end{pbsect}}
 
-\newcommand{\history}[1]%
+\newenvironment{history}%
     {\begin{pbsect}{HISTORY}
-    Go around the group again. On your turn, pick one of these for each other agent:
-    \begin{itemize}
-    \foreach \hist in {#1} {{\item {\hist}}}
-    \end{itemize}
-    \end{pbsect}}
+    Go around the group again. On your turn, pick one of these for each other agent:}
+    % history items
+    {\end{pbsect}}
 
 % advancement
 \newcommand{\levelingup}%
