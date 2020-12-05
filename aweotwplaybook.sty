@@ -6,7 +6,6 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{xcolor}
 \RequirePackage{multicol}
-\RequirePackage{tcolorbox}
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
 \RequirePackage{tikz}
@@ -16,7 +15,7 @@
 \RequirePackage{ragged2e}
 
 % formatting
-\definecolor{ratingcolor}{HTML}{FFFFFF}
+\definecolor{ratingcolor}{HTML}{000000}
 
 \usepackage[lmargin=12mm,rmargin=12mm,bmargin=12mm,tmargin=16mm,bindingoffset=0mm,heightrounded]{geometry}
 
@@ -27,23 +26,14 @@
 \titleformat
 {\chapter}
 [display]
-{\bfseries\LARGE}
+{\bfseries\huge}
 {\thechapter}
 {0mm}
 {\vspace{-8mm}}
 [\vspace{-8mm}]
-\tcbset{
-    colframe=blue!50!white,
-    colback=black,
-    coltext=white,
-    top=4mm,
-    bottom=8mm,
-    right=8mm,
-    left=4mm,
-}
 
 \setlist{
-    leftmargin=8mm,
+    leftmargin=4mm,
     itemsep=0mm,
     parsep=1mm,
     partopsep=0mm,
@@ -65,43 +55,48 @@
 }}
 
 % playbook sections
-\newcommand{\pbsecttitle}[1]{\textbf{\normalsize #1}}
+\newcommand{\pbsecttitle}[1]{\textbf{\large #1}}
 
 \newenvironmentx{pbsect}[3][2={\br[3mm]},3={\br[2mm]}]
     {#2
     \pbsecttitle{#1}
     #3
-    \footnotesize}
+    \small}
     {\normalsize}
 
 \newenvironment{pbsect*}[1]
     {\br[3mm]
     \pbsecttitle{#1}
-    \footnotesize}
+    \small}
     {\normalsize}
 
 \newenvironment{blurb}[1]
-    {\textbf{#1}\\}
-    {}
+    {\textbf{#1}
+    \small}
+    {\normalsize}
 
 \newenvironment{blurbparen}[2]
-    {\textbf{#1} (#2):\\}
-    {}
+    {\textbf{#1} {\small (#2)}:\\
+    \small}
+    {\normalsize}
 
-\newenvironment{blurb*}[1]
-    {\footnotesize
-    \textbf{#1}\\}
+\newenvironmentx{blurb*}[2][2=\\]
+    {\small
+    \textbf{#1}#2}
     {\normalsize}
 
 \newcommand{\moveexp}[2]%
     {\begin{pbsect}{MOVES}[]
-    \textit{You get the basic moves, plus #1 #2 moves.}
+    \expl{You get the basic moves, plus #1 #2 moves.}
     \end{pbsect}}
 
 \newcommand{\moveexpembedded}[2]%
     {\begin{pbsect}{MOVES}
-    \textit{You get the basic moves, plus #1 #2 moves.}
+    \expl{You get the basic moves, plus #1 #2 moves.}
     \end{pbsect}}
+
+\newcommand{\expl}[1]%
+    {\textit{\small #1}}
 
 % ratings
 \newcommand{\rating}[2]%
@@ -153,7 +148,7 @@
 \newcommand{\experience}%
     {\begin{pbsect}{EXPERIENCE}[][]
     \begin{center}
-    \textit{Experience}: \checkbox[5]
+    Experience: \checkbox[5]
     \end{center}
     Whenever you roll and get a total of 6 or less, or when a move tells you to, mark an experience box.
     \end{pbsect}}
@@ -199,8 +194,8 @@
     \end{pbsect}}
 
 % playbook formatting
-\newcommand{\playbookpage}[3]%
-    {\begin{vwcol}[widths={0.3,0.3,0.3},sep=28mm]
+\newcommandx{\playbookpage}[3]%
+    {\begin{vwcol}[widths={0.3,0.3,0.3},sep=28mm,rule=0pt]
     %\begin{minipage}[t]{1\textwidth}
     \begin{minipage}[t][0.5\textheight][t]{0.32\textwidth}#1\vfill\end{minipage}
     \begin{minipage}[t][0.5\textheight][t]{0.32\textwidth}#2\vfill\end{minipage}
@@ -212,12 +207,13 @@
     {\br[8mm]
     \noindent\rule{1\textwidth}{1pt},
     \\[3mm]
-    {\Huge \uppercase{The #1}}\\
+    {\Huge \uppercase{The #1}}
+    \br[1mm]
     \begin{adjustwidth}{4mm}{0mm}
     \textit{\footnotesize #2}
     \end{adjustwidth}
     \ratings
-    \luck{#1}{#3}
+    \luck{#1}{#3}\\
     \harm
     \experience}
 
@@ -229,9 +225,11 @@
     \end{minipage}
     \begin{minipage}[t]{0.94\linewidth}
     \justify
-    \textbf{\normalsize #2:}}%
+    \textbf{\large #2:}
+    \small}%
     % filler
     {\flushleft
+    \normalsize
     \end{minipage}}
 
 \newenvironment{move*}[2][\brln]%
@@ -241,9 +239,11 @@
     \end{minipage}
     \begin{minipage}[t]{0.94\linewidth}
     \justify
-    \textbf{\normalsize #2:}}%
+    \textbf{\normalsize #2:}
+    \small}%
     % filler
     {\flushleft
+    \normalsize
     \end{minipage}}
 
 % listing options
@@ -268,7 +268,7 @@
         \ifnum\co>1%
         \\[1pt]%
         \fi%
-        \opt{\lo}}}
+        \opt{\small \lo}}}
 
 \newcommand{\optionslisttwocol}[1]%
     {\setlength\columnsep{4mm}
@@ -277,12 +277,12 @@
         \ifnum\co>1%
         \\[1pt]%
         \fi%
-        \opthalf{\tlo}}
+        \opthalf{\small \tlo}}
     \end{multicols}
     \setlength\columnsep{8mm}}
 
 \newcommand{\optionsparen}[3]%
-    {\textbf{#1} (#2):\\[1mm]
+    {\textbf{#1} {\small (#2)}:\\[1mm]
     \optionslist{#3}}
 
 \newcommand{\optionsblurb}[3]%
@@ -291,7 +291,7 @@
     \optionslist{#3}}
 
 \newcommand{\optionstwocolparen}[3]%
-    {\textbf{#1} (#2):\\
+    {\textbf{#1} {\small (#2)}:\\
     \optionslisttwocol{#3}}
 
 \newcommand{\holdoptions}[1]%

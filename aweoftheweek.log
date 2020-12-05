@@ -1,0 +1,4732 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.28)  5 DEC 2020 08:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex
+(/home/fryr/TexDocs/aweotw-tex/aweoftheweek.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2020/06/02 v3.7l configurable book, report, article document class
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count167
+\c@@memmarkcntra=\count168
+LaTeX Info: Redefining \InputIfFileExists on input line 140.
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+ (/usr/share/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count169
+\memPD=\dimen134
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count170
+\c@part=\count171
+\c@chapter=\count172
+\c@section=\count173
+\c@subsection=\count174
+\c@subsubsection=\count175
+\c@paragraph=\count176
+\c@subparagraph=\count177
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count178
+\c@@ppsaveapp=\count179
+\ragrparindent=\dimen135
+\everylistparindent=\dimen136
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks15
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen137
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count180
+\c@poemline=\count181
+\c@modulo@vs=\count182
+\c@memfvsline=\count183
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen138
+\c@verse=\count184
+\c@chrsinstr=\count185
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count186
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+ (/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box45
+\extrarowheight=\dimen140
+\NC@list=\toks16
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box46
+) (/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+) (/usr/share/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen141
+\TX@old@table=\dimen142
+\TX@old@col=\dimen143
+\TX@target=\dimen144
+\TX@delta=\dimen145
+\TX@cols=\count187
+\TX@ftn=\toks17
+)
+\heavyrulewidth=\dimen146
+\lightrulewidth=\dimen147
+\cmidrulewidth=\dimen148
+\belowrulesep=\dimen149
+\belowbottomsep=\dimen150
+\aboverulesep=\dimen151
+\abovetopsep=\dimen152
+\cmidrulesep=\dimen153
+\cmidrulekern=\dimen154
+\defaultaddspace=\dimen155
+\@cmidla=\count188
+\@cmidlb=\count189
+\@aboverulesep=\dimen156
+\@belowrulesep=\dimen157
+\@thisruleclass=\count190
+\@lastruleclass=\count191
+\@thisrulewidth=\dimen158
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count192
+\@linestogo=\count193
+\@cellstogo=\count194
+\@cellsincolumn=\count195
+\crtok=\toks18
+\@mincolumnwidth=\dimen159
+\c@newflo@tctr=\count196
+\mem@margin@floatbox=\box47
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen160
+\c@@contsubnum=\count197
+\m@mscap@capbox=\box48
+\m@mscap@fbox=\box49
+\sidecapsep=\dimen161
+\sidecapwidth=\dimen162
+\m@m@tempdima=\dimen163
+\m@mscapraise=\dimen164
+\sidecapraise=\dimen165
+\m@mscapmainwidth=\dimen166
+\m@mscaplkern=\dimen167
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7664.
+LaTeX Info: Redefining \emph on input line 7672.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen168
+\cftbooknumwidth=\dimen169
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen170
+\c@maxsecnumdepth=\count198
+\bibindent=\dimen171
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks19
+\@indexbox=\insert199
+\glossarycolsep=\dimen172
+\glossaryrule=\dimen173
+\sideparvshift=\skip162
+\sideins=\insert252
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert251
+\@mpfootinsv@r=\insert250
+\m@m@k=\count266
+\m@m@h=\dimen174
+\m@mipn@skip=\skip171
+\sidefootins=\insert249
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count267
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count268
+\c@pagenoteshadow=\count269
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks20
+\afterevery@verbatim=\toks21
+\verbatim@line=\toks22
+\tab@position=\count270
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count271
+\c@bvlinectr=\count272
+\bvnumlength=\skip184
+\fb@frw=\dimen175
+\fb@frh=\dimen176
+\FrameRule=\dimen177
+\FrameSep=\dimen178
+\c@cp@cntr=\count273
+LaTeX Info: Redefining \: on input line 12199.
+LaTeX Info: Redefining \! on input line 12199.
+\c@ism@mctr=\count274
+\c@xsm@mctr=\count275
+\c@csm@mctr=\count276
+\c@ksm@mctr=\count277
+\c@xksm@mctr=\count278
+\c@cksm@mctr=\count279
+\c@msm@mctr=\count280
+\c@xmsm@mctr=\count281
+\c@cmsm@mctr=\count282
+\c@bsm@mctr=\count283
+\c@workm@mctr=\count284
+\c@sheetsequence=\count285
+\c@lastsheet=\count286
+\c@lastpage=\count287
+ (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count288
+\c@lofdepth=\count289
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count290
+\c@lotdepth=\count291
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (/usr/share/texmf-dist/tex/latex/tex-gyre/tgadventor.sty
+Package: tgadventor 2009/09/10 v1.2 TeX Gyre Adventor as default sans serif family
+ (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+) (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 112.
+ (/usr/share/texmf-dist/tex/latex/tex-gyre/t1qag.fd
+File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
+)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count292
+\mult@box=\box50
+\multicol@leftmargin=\dimen179
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
+\full@width=\dimen180
+\page@free=\dimen181
+\premulticols=\dimen182
+\postmulticols=\dimen183
+\multicolsep=\skip191
+\multicolbaselineskip=\skip192
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen184
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count298
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen185
+\multicolovershoot=\dimen186
+\multicolundershoot=\dimen187
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count301
+) (/home/fryr/texmf/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen188
+\pgfutil@tempdimb=\dimen189
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box96
+ (/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen190
+\Gin@req@width=\dimen191
+) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen192
+\pgf@y=\dimen193
+\pgf@xa=\dimen194
+\pgf@ya=\dimen195
+\pgf@xb=\dimen196
+\pgf@yb=\dimen197
+\pgf@xc=\dimen198
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count302
+\c@pgf@countb=\count303
+\c@pgf@countc=\count304
+\c@pgf@countd=\count305
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count306
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count307
+\pgfsyssoftpath@bigbuffer@items=\count308
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count309
+\pgfmath@box=\box97
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count310
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box98
+\pgf@hbox=\box99
+\pgf@layerbox@main=\box100
+\pgf@picture@serial@count=\count311
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen278
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen282
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count312
+\pgf@shadingcount=\count313
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box101
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box102
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/home/fryr/texmf/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/home/fryr/texmf/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks36
+) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count314
+)
+\tcb@titlebox=\box103
+\tcb@upperbox=\box104
+\tcb@lowerbox=\box105
+\tcb@phantombox=\box106
+\c@tcbbreakpart=\count315
+\c@tcblayer=\count316
+\c@tcolorbox@number=\count317
+\tcb@temp=\box107
+\tcb@temp=\box108
+\tcb@temp=\box109
+\tcb@temp=\box110
+\tcb@out=\write5
+\tcb@record@out=\write6
+) (/home/fryr/texmf/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip193
+\enit@outerparindent=\dimen286
+\enit@toks=\toks37
+\enit@inbox=\box111
+\enit@count@id=\count318
+\enitdp@description=\count319
+) (/home/fryr/texmf/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box112
+\beforetitleunit=\skip194
+\aftertitleunit=\skip195
+\ttl@plus=\dimen287
+\ttl@minus=\dimen288
+\ttl@toksa=\toks38
+\titlewidth=\dimen289
+\titlewidthlast=\dimen290
+\titlewidthfirst=\dimen291
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count320
+\pgfplotmarksize=\dimen294
+)
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
+\tikz@figbox=\box113
+\tikz@figbox@bg=\box114
+\tikz@tempbox=\box115
+\tikz@tempbox@bg=\box116
+\tikztreelevel=\count321
+\tikznumberofchildren=\count322
+\tikznumberofcurrentchild=\count323
+\tikz@fig@count=\count324
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count325
+\pgfmatrixcurrentcolumn=\count326
+\pgf@matrix@numberofcolumns=\count327
+)
+\tikz@expandcount=\count328
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/home/fryr/TexDocs/aweotw-tex/aweotwplaybook.sty
+Package: aweotwplaybook 2020/11/30 AWE of the Week Playbook Package
+ (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (/home/fryr/texmf/tex/latex/vwcol/vwcol.sty
+Package: vwcol 2015/02/10 v0.2 Variable-width multicolumn text
+ (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count329
+\calc@Bcount=\count330
+\calc@Adimen=\dimen303
+\calc@Bdimen=\dimen304
+\calc@Askip=\skip196
+\calc@Bskip=\skip197
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count331
+\calc@Cskip=\skip198
+) (/home/fryr/texmf/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ (/usr/share/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip256
+\RaggedLeftLeftskip=\skip257
+\RaggedRightLeftskip=\skip258
+\CenteringRightskip=\skip259
+\RaggedLeftRightskip=\skip260
+\RaggedRightRightskip=\skip261
+\CenteringParfillskip=\skip262
+\RaggedLeftParfillskip=\skip263
+\RaggedRightParfillskip=\skip264
+\JustifyingParfillskip=\skip265
+\CenteringParindent=\skip266
+\RaggedLeftParindent=\skip267
+\RaggedRightParindent=\skip268
+\JustifyingParindent=\skip269
+)
+\vwcol@sep=\skip270
+\vwcol@rule=\skip271
+\vwcol@totalwidth=\skip272
+\vwcol@averagewidth=\skip273
+\vwcol@parindent=\skip274
+\vwcol@last=\count332
+\vwcol@Ncols=\count333
+\vwcol@Nlines=\count334
+\vwcol@maxrecursion=\count335
+\vwcol@box=\box117
+\vwcol@plainbox=\box118
+\vwcol@outputbox=\box119
+) (/home/fryr/texmf/tex/latex/xargs/xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+ (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
+)
+\XKV@depth=\count336
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\xargs@max=\count337
+\xargs@toksa=\toks43
+\xargs@toksb=\toks44
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count338
+\Gm@cntv=\count339
+\c@Gm@tempcnt=\count340
+\Gm@bindingoffset=\dimen305
+\Gm@wd@mp=\dimen306
+\Gm@odd@mp=\dimen307
+\Gm@even@mp=\dimen308
+\Gm@layoutwidth=\dimen309
+\Gm@layoutheight=\dimen310
+\Gm@layouthoffset=\dimen311
+\Gm@layoutvoffset=\dimen312
+\Gm@dimlist=\toks45
+)) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ (/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen313
+\Hy@linkcounter=\count341
+\Hy@pagecounter=\count342
+ (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count343
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count344
+ (/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen314
+ (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count345
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ (/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count346
+\c@Item=\count347
+\c@Hfootnote=\count348
+) (/usr/share/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir class
+\c@memhycontfloat=\count349
+\c@Hpagenote=\count350
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+ (/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count351
+\c@bookmark@seq@number=\count352
+ (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip275
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count353
+\l__pdf_internal_box=\box120
+) (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.aux (/home/fryr/TexDocs/aweotw-tex/director.aux) (/home/fryr/TexDocs/aweotw-tex/investigator.aux) (/home/fryr/TexDocs/aweotw-tex/ranger.aux) (/home/fryr/TexDocs/aweotw-tex/janitor.aux) (/home/fryr/TexDocs/aweotw-tex/researcher.aux) (/home/fryr/TexDocs/aweotw-tex/outsider.aux) (/home/fryr/TexDocs/aweotw-tex/psychic.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count354
+\scratchdimen=\dimen317
+\scratchbox=\box121
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen318
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks47
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 43.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape heightrounded 
+* h-part:(L,W,R)=(34.1433pt, 726.6834pt, 34.1433pt)
+* v-part:(T,H,B)=(45.5244pt, 534.6273pt, 34.1433pt)
+* \paperwidth=794.96999pt
+* \paperheight=614.295pt
+* \textwidth=726.6834pt
+* \textheight=538.0pt
+* \oddsidemargin=-38.1267pt
+* \evensidemargin=-38.1267pt
+* \topmargin=-56.81308pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=144.0pt
+* \marginparsep=7.0pt
+* \columnsep=22.76219pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box122
+Package hyperref Info: Link coloring ON on input line 43.
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count360
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+(/home/fryr/TexDocs/aweotw-tex/aweoftheweek.out) (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.out)
+\@outlinefile=\write7
+\GPT@outputbox=\box123
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+qag on input line 136.
+ (/usr/share/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
+File: ts1qag.fd 2009/09/25 v1.2 font definition file for TS1/qag
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \chapter
+              *{Theme, Changes, and Altered World Events} [2
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 
+       [3
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 \end{multicols}
+                      [4]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.232 \chapter
+              *{Basic Move Updates} [5
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.324 \setlength
+                \columnsep{8mm} [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.363 \end{multicols}
+                      [7
+
+] (/home/fryr/TexDocs/aweotw-tex/director.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 100--100
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 100.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 100.
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 100--100
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/it/8 I didn't want the job of Di-rec-tor, didn't want the power.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/it/8 But there were no other can-di-dates. Only me, al-ways in
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/b/n/9 Director spe-cial: \T1/qag/m/n/9 When you spend a point of luck, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/n/9 You get to de-cide what your po-si-tion has in store for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/9 you. Pick how you were se-lected as Di-rec-tor of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/9 Bu-reau, and what The Board and The Bu-reau are
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/n/9 You can have pro-tec-tive gear worth 1-armour, if you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/9 want. You have the ser-vice weapon, like any Di-rec-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/n/9 Design your weapon by choos-ing a base, three
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/9 forms, and a ma-te-rial. Your Ser-vice Weapon al-ways
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 100--100
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\T1/qag/m/n/10 Take Grip and choose 2 more. Only one form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/10 is ac-tive at a time. The ser-vice weapon can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+\T1/qag/m/n/10 in-stantly re-con-fig-ure from one form to an-other
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 100--100
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 100
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 100
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 100
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \playbookpage
+                   {% [8
+
+]
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Finally, pick what ma-te-rial the ser-vice weapon is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 made from. ^^Psteel^^Q, ^^Pcold iron^^Q, ^^Psil-ver^^Q, ^^Pwood^^Q,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 ^^Pstone^^Q, ^^Pbone^^Q, ^^Pteeth^^Q, ^^Pob-sid-ian^^Q, or any-thing else
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Then pick two Bu-reau and two Board tags for your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 duty to the agency from the lists be-low. This is how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 The Bu-reau's fu-ture will un-fold. It's okay to pick con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 tra-dic-tory tags: that means there is man-age-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 When you \T1/qag/b/n/9 mark off a point of luck\T1/qag/m/n/9 , the Keeper will
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Overfull \hbox (1.66478pt too wide) in paragraph at lines 197--197
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 Di-rec-tor by name and look, and tell the group what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 You are close blood re-la-tions. Ask them ex-actly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 They are des-tined to be your re-place-ment. Tell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 You worked your way up through the Bu-reau to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Romantically en-tan-gled. Or fated to be ro-man-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 A ri-val at first, but you came to a work-ing ar-range-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 They could have been the Di-rec-tor in-stead of you.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 You saved their life, back be-fore they knew the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 para-nor-mal was real. Tell them what you saved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Create a sec-ond Bu-reau Agent to play as well as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Step down as Di-rec-tor: for-feit your Ser-vice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\T1/qag/m/n/9 Appoint a new Di-rec-tor, give them the Ser-vice
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 197--197
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.370 \include{director}
+                         [9] (/home/fryr/TexDocs/aweotw-tex/investigator.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 91--91
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 91--91
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\T1/qag/m/it/8 Someone sends us a hand-writ-ten let-ter about a sta-pler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/qag/m/it/8 that growls and bites the other of-fice sup-plies and I'm
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 91--91
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/qag/b/n/9 Investigator spe-cial: \T1/qag/m/n/9 When you mark off a point of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/qag/m/n/9 luck, the Keeper will haul out the de-part-ment's red
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\T1/qag/m/it/9 You get the ba-sic moves, plus three In-ves-ti-ga-tor
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 91--91
+\T1/qag/b/n/9 counter some-thing strange\T1/qag/m/n/9 , you may ask the
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 91--91
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 91--91
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 91
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 91
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 91
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \playbookpage
+                  {% [10
+
+
+]
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 189--189
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 189--189
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 You get two self de-fense items, and two in-ves-ti-ga-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 A CB Hand Ra-dio at-tuned to only picks up para-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Black rock con-tain-ment gear (mit-tens, tongs, a
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 189--189
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 The in-ves-ti-ga-tions de-part-ment it-self comes with its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 own perks and red tape. Pick two perks that the de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 part-ment of-fers you while you're on the job, and a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 red tape is-sue you have to bat-tle through to get the
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 189--189
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 In-ves-ti-ga-tor by name and look, and tell the group
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 They're some-how tied into it all. You've been
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 They're a close rel-a-tive. Ask them to de-cide ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Old friends, who orig-i-nally met through a long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 The signs all pointed to work-ing to-gether. So you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 They were in-volved in a su-per-nat-u-ral event sim-i-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 to your first en-counter. Per-haps it was the same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 event, or per-haps you in-ves-ti-gated their event
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 You met when you were each in-ves-ti-gat-ing sep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 a-rate mys-ter-ies. Tell them what trick you used to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 pro-tect them from weird-ness and ask them how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Get an-other re-source tag for your agency or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 The De-part-ment as-signs you a part-ner. Use the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Create a sec-ond Bu-reau Agent to play as well as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]\T1/qag/m/n/9 Get pro-moted to the Head of In-ves-ti-ga-tions. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T1/qag/m/n/9 char-ac-ter be-comes an NPC. Start a new char-ac-
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 189--189
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 189
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 189
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 189
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.374 \include{investigator}
+                             [11] (/home/fryr/TexDocs/aweotw-tex/ranger.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 107--107
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 107--107
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]\T1/qag/m/it/8 Bureau lead-er-ship al-ways goes on about how vi-tal the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/m/it/8 se-cure and con-tain pro-to-col is, how it's our duty to
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/b/n/9 Ranger spe-cial: \T1/qag/m/n/9 When you spend a point of luck, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/m/n/9 Keeper will bring about some dan-ger or com-pli-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 107--107
+[]\T1/qag/b/n/10.95 Battlefield Aware-ness:  \T1/qag/m/n/9 You al-ways know
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 107--107
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]\T1/qag/m/n/9 Pick one heavy weapon, two nor-mal weapons, a ve-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/m/n/9 hi-cle, and de-scribe your squad. You get ei-ther a flak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T1/qag/m/n/9 vest (1-armour hid-den) or com-bat ar-mor (2-armour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]\T1/qag/m/n/9 Grenade launcher (4-harm far area messy loud
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 107--107
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 107
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 107
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 107
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.109 \playbookpage
+                   {% [12
+
+
+]
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 You don't work alone, you're one part of a highly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 The bu-reau pro-vides your squad with an out-fit-ted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 truck, van, or car built for han-dling AWEs. Choose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/it/9 Good things\T1/qag/m/n/9 : roomy; surveil-lance gear; fast; stealthy;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 in-tim-i-dat-ing; clas-sic; med-i-cal kit; sleep-ing space;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 toolkit; con-cealed weapons; anony-mous; ar-moured
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 (+1 ar-mour in-side); tough; para-nor-mal item con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/it/9 Bad things\T1/qag/m/n/9 : loud; ob-vi-ous; tem-per-a-men-tal; beaten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Your squad con-sists of two, three, or four mem-bers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 (in-clud-ing your-self). Name each mem-ber, give them
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 a spe-cialty and a flaw from the list, and write a sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/it/9 Specialties\T1/qag/m/n/9 : driver; medic; strat-egy and tac-tics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 sniper; de-mo-li-tions; para-nor-mal con-tain-ment; psy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/it/9 Flaws\T1/qag/m/n/9 : green; ag-gro; cal-lous; bossy; para-noid; com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/b/n/10 Squad Mem-ber 1:  \T1/qag/m/n/9 Spe-cialty: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/b/n/10 Squad Mem-ber 2:  \T1/qag/m/n/9 Spe-cialty: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/b/n/10 Squad Mem-ber 3:  \T1/qag/m/n/9 Spe-cialty: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 Ranger by name and look, and tell the group what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 You went through hell to-gether: maybe an AWE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 maybe mil-i-tary ser-vice, maybe time in an in-sti-tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 tion. What-ever it was, it bound you to-gether, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Your re-la-tion-ship with them has ro-man-tic po-ten-tial.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 They're on the Bu-reau's in-ter-nal watch list, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 You met on a mis-sion and worked to-gether un-of-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 You were friends back in train-ing, be-fore the Bu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 reau re-cruited you. This could be mil-i-tary, law
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 en-force-ment, or some weirder school: de-cide the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 They pulled you (and maybe your team) out of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 You got sent to ^^Pdeal with them^^Q as a haz-ard to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 the Bu-reau's poli-cies one time. Tell them how you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Add an-other good tag to your ve-hi-cle or change
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Pick a squad-mate as a sec-ond Bu-reau Agent to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\T1/qag/m/n/9 Get pro-moted to the Head of Op-er-a-tions. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/qag/m/n/9 char-ac-ter be-comes an NPC. Start a new char-ac-
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 214--214
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 214
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 214
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 214
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.378 \include{ranger}
+                       [13] (/home/fryr/TexDocs/aweotw-tex/janitor.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 94--94
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 94--94
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\T1/qag/m/it/8 Someone called look-ing for an as-sis-tant. I an-swered the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\T1/qag/m/it/8 call. They let me into the build-ing, showed me around
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\T1/qag/b/n/9 Janitor spe-cial: \T1/qag/m/n/9 When you spend a point of luck, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\T1/qag/m/n/9 Keeper will cause the old-est house to shift, or re-lease
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\T1/qag/m/it/10 Pick two of the fol-low-ing three. You can-not pick
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\T1/qag/m/it/10 the third when you level up. Only the Jan-i-tor
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 94--94
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 94--94
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 94
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 94
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 94
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \playbookpage
+                  {% [14
+
+
+]
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You have an Ob-ject of Power that helps or pro-tects
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 you. De-fine it, and its power, with the Keeper's agree-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 ment. The ob-ject is one of: a jan-i-to-rial sup-ply item, a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 dis-crete and old piece of elec-tron-ics, or some-thing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 that plays mu-sic. The Bu-reau is not aware that this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 is an ob-ject of power, or that you have ob-jects of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You may not al-ways know what the peo-ple in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 Bu-reau are do-ing, or why they're do-ing it, but no one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 knows the old-est house it-self like you do. When-ever
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 you ask the Keeper where a place or thing is lo-cated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 in-side the house, even if that lo-ca-tion is sup-posed to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 be se-cret, even if the house has shifted, they will tell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 At any time dur-ing play you may mark a box of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Describe a sec-tor or thresh-old within the old-est
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 house. That place now ex-ists. With the Keeper's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 agree-ment, de-scribe de-tails such as whether it is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 overt or se-cret, in use or va-cated, and what can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Ask the Keeper about any para-nor-mal thing that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 ex-ists in-side the old-est house. They will tell you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Ask or tell the Keeper about a rit-ual or pro-ce-dure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 em-ploy-ees use to con-trol or work within the old-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 est house. You now know as much as any other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 bu-reau em-ployee about it, and are able to re-pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 Jan-i-tor by name and look, and tell the group what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You are close re-la-tions. Tell them ex-actly how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You helped get them their job in the Bu-reau. Tell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Workplace bud-dies. Your re-spon-si-bil-i-ties caused
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 you to bump into each other fre-quently and that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 They've been break-ing the Bu-reau's rules and they
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 think they're get-ting away with it. But you've seen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You're a bit sus-pi-cious, or ex-tra wel-com-ing, of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 them (maybe due to their un-nat-u-ral pow-ers or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 You ac-ci-den-tally ru-ined some of their work while
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 clean-ing up their space. Ask them what hap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Due to an un-likely chain of events you saved their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 life from a safety breach within the Bu-reau. Tell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 167--167
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.382 \include{janitor}
+                        [15] (/home/fryr/TexDocs/aweotw-tex/researcher.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 85--85
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 85--85
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\T1/qag/m/it/8 Given the choice, tell me which op-tion would you pick:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/qag/m/it/8 a lab for test-ing hu-man blood sam-ples, or a lab for
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 85--85
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/qag/b/n/9 Researcher spe-cial: \T1/qag/m/n/9 When you spend a point of luck,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\T1/qag/m/it/9 You get the ba-sic moves, plus two Re-searcher moves.
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 85--85
+[]\T1/qag/m/n/9 They com-plain to some-one im-por-tant about
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 85--85
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 85--85
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 85
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 85
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 85
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.87 \playbookpage
+                  {% [16
+
+
+]
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 You have a per-sonal lab, a safe place to work, in-side
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 the old-est house. Pick three of the op-tions be-low for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Published Re-search\T1/qag/m/n/10 : You have ac-cess to ex-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 sive pub-li-ca-tions on para-nor-mal events. When
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 you spend some time study-ing the lit-er-a-ture,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Ritual Re-search\T1/qag/m/n/10 : You have ac-cess to ex-ten-sive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 doc-u-men-ta-tion on pre-vi-ously suc-cess-ful rit-u-als.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 When you re-fer to these doc-u-ments, de-scribe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 a past event where a sim-i-lar para-nor-mal event,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 item, or en-tity was suc-cess-fully con-tained, then
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Reinforced Con-tainer\T1/qag/m/n/10 : Your lab has a re-in-forced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 room that can con-tain de-struc-tive para-nor-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 items and en-ti-ties with-out too much worry of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Infirmary\T1/qag/m/n/10 : You can re-lieve peo-ple of para-nor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 mal in-flu-ence, and have the space for one or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 two to re-cu-per-ate. The Keeper will tell you how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 long any pa-tient's re-cov-ery is likely to take, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Workshop\T1/qag/m/n/10 : You have a space for build-ing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 re-pair-ing gad-gets and para-nor-mal equip-ment.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 Work out with the keeper how long any re-pair
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 or con-struc-tion will take, and if you need ex-tra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Black Rock Walls\T1/qag/m/n/10 : This room is iso-lated from ev-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 ery kind of para-nor-mal in-flu-ence that you know
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 about. Any-thing you stash in there can't be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 found, can't af-fect any-thing out-side the lab,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Safe Room\T1/qag/m/n/10 : Your lab comes with a safe room
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 that is pro-tected by nor-mal and para-nor-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 means. You and up to two oth-ers can hide out
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 there for a few days, safe from pretty much
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/b/n/10 Ritual Lab-o-ra-tory\T1/qag/m/n/10 : Your lab is equipped with all
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 kinds of weird tools and sup-plies use-ful for do-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 Re-searcher by name and look, and tell the group
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 They are your stu-dent, ap-pren-tice, as-sis-tant, ward,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 They came to you for ad-vice, and your ad-vice got
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 them out of trou-ble. Ask them what the trou-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 They know about some of your un-eth-i-cal re-search,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 but they've agreed to keep quiet about them. Tell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 You were pre-vi-ously both mem-bers of an el-dritch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 group, now dis-banded. Ask them why they left,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 They once helped you get a sin-gu-lar item that is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 You both had to deal with the for-mer head of re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 search, who went crazy or whose ob-ses-sions got
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 You saved their life in a tight spot. Tell them what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Add an op-tion to your Lab, or add a sec-ond op-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Create a sec-ond Bu-reau Agent to play as well as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qag/m/n/9 Get pro-moted to the Head of Re-search. This char-
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 163--163
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 163
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 163
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 163
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386 \include{researcher}
+                           [17] (/home/fryr/TexDocs/aweotw-tex/outsider.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 114--114
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (0.58527pt too wide) in paragraph at lines 114--114
+[][] [] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 114--114
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\T1/qag/m/it/8 You spend your life watch-ing a movie, think-ing that's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/it/8 all there is. You only re-al-ize there's more to find when it
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 114--114
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/b/n/9 Outsider spe-cial: \T1/qag/m/n/9 When you spend a point of Luck,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/9 your first en-counter comes up in play. It could be a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\T1/qag/m/it/9 You get the ba-sic moves, plus three Out-sider moves.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\T1/qag/b/n/10 First En-counter: \T1/qag/m/n/10 One strange event started
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/10 you down this path, spark-ing your need to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/10 dis-cover the truth be-hind the un-ex-plained.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/10 De-cide what that event was: pick a cat-e-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/10 gory be-low and take the as-so-ci-ated move.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\T1/qag/m/n/10 Then tell ev-ery-one what hap-pened to you
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.35527pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (0.58527pt too wide) in paragraph at lines 114--114
+[][] [] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 114--114
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 114--114
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 114
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 114
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 114
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 \playbookpage
+                   {% [18
+
+
+]
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 196--196
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 You have pro-tec-tive wear, suited to your look, worth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 1-armour, a 9mm (2-harm close loud) and a big knife
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/b/n/9 Tinfoil Hat: \T1/qag/m/n/9 while worn, you are shielded from di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 rect para-nor-mal in-flu-ence on your mind. You also
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/b/n/9 Lead-lined Vest: \T1/qag/m/n/9 while worn, psy-chic harm against
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 you can-not ig-nore ar-mor. You also in-su-late your-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 self from para-nor-mal abil-i-ties, take -1 Weird on-go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/b/n/9 Rubber Bio-haz-ard Suit: \T1/qag/m/n/9 while worn, and in good
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 con-di-tion, you are pro-tected from any bi-o-log-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 ef-fects such as molds and tox-ins. You also have a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/b/n/9 Modified Weld-ing Mask: \T1/qag/m/n/9 while worn, you are un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 af-fected by para-nor-mal ef-fects trig-gered when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 look-ing at, or away from, some-thing. You have a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 dif-fi-cult time see-ing any-thing, re-ally, and take -1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/b/n/9 Resonance Can-celling Head-phones: \T1/qag/m/n/9 while worn,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 au-di-tory para-nor-mal ef-fects can-not af-fect you.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 You barely hear nor-mal sounds ei-ther, and take -1
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 196--196
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 You have +1 on-go-ing while driv-ing. Plus you can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 hotwire any ve-hi-cle (the older and more nor-mal it is,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 the fewer tools you need to do it). You also have two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 Out-sider by name and look, and tell the group what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 They helped you at a crit-i-cal point in your quest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 to find the truth. Tell them what you needed help
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 They stood be-tween you and what you needed to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 They also lost a friend or rel-a-tive to the para-nor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 You re-spect their hard-earned knowl-edge, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 They in-tro-duced you to the Bu-reau when you were
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 They saw you ab-so-lutely lose it and go un-hinged.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 Tell them what the sit-u-a-tion was, and ask them
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Gain an As-tral Guide, like the Psy-chic has, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Create a sec-ond Bu-reau Agent to play as well as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Get pro-moted to the Head of Con-tain-ment. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 char-ac-ter be-comes an NPC. Start a new char-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]\T1/qag/m/n/9 Resolve your first en-counter. The Keeper makes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 the next mys-tery about this event, and should try
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 to an-swer all re-main-ing ques-tions about it dur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T1/qag/m/n/9 the mys-tery (al-though there are sure to be new
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 196--196
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 196
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 196
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 196
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.390 \include{outsider}
+                         [19] (/home/fryr/TexDocs/aweotw-tex/psychic.tex
+Overfull \hbox (2.77pt too wide) in paragraph at lines 90--90
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+[]  
+ []
+
+
+Overfull \hbox (2.77pt too wide) in paragraph at lines 90--90
+[]\T1/qag/m/n/10 , 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\T1/qag/m/it/8 I didn't choose to come here. Some-thing brought me.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\T1/qag/m/it/8 Lead-ing me ev-ery step of the way. Tug-ging on my strings
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Overfull \hbox (0.58472pt too wide) in paragraph at lines 90--90
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\T1/qag/m/n/9 Mark luck to change a roll to 12 or avoid all harm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\T1/qag/b/n/9 Psychic spe-cial: \T1/qag/m/n/9 As you mark off your Luck boxes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\T1/qag/m/n/9 Whenever you roll and get a to-tal of 6 or less, or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\T1/qag/m/it/10 Pick two of the four Power moves be-low. These
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\T1/qag/m/it/10 moves can-not be taken when lev-el-ing up un-less
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 90--90
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 90--90
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 90
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 90
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 90
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 \playbookpage
+                  {% [20
+
+
+]
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 169--169
+[][] [][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+[][] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Your pow-ers have a source that is with you al-ways,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 guid-ing you through the world. It's like a res-o-nance,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 or a be-ing in your dreams, or a flash of im-ages and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 words in-side your head. It might be help-ing you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 be-cause it likes you, or it might be driv-ing you to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 pur-sue its own wants and goals. Some-thing like that.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 A kalei-do-scopic im-age that flashes through your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 A dis-em-bod-ied voice talk-ing to you in dis-jointed
+ []
+
+
+Overfull \hbox (3.21582pt too wide) in paragraph at lines 169--169
+[][] [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/10 The keeper can in-ject sig-nals into the world as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 a sign that your source would like you to fol-low
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 that path. If you go where the sig-nal wants you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 to, mark ex-pe-ri-ence. If you don't, then your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 pow-ers are un-avail-able un-til the end of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 mys-tery (or un-til you cave). As you mark off luck
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 boxes, your guide will be-come pushier about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/b/n/9 At the start of each mys-tery\T1/qag/m/n/9 , hold 2. You can spend
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 this hold any-time to send a mes-sage tele-path-i-cally to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 your guide. When you do, roll +Weird. On a 10+, your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 guide re-veals a key fact, clue, or lo-ca-tion that will
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 help you. On a 7-9, the an-swer is clouded or dif-fi-cult
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 to in-ter-pret. On a miss your guide's re-ply is ter-ri-ble,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 When you get here, wait for ev-ery-one to catch up so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Go around the group. On your turn, in-tro-duce your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 Psy-chic by name and look, and tell the group what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Go around the group again. On your turn, pick one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 They taught you to con-trol your pow-ers, to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 You are mar-ried, or ro-man-ti-cally in-volved. De-cide
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 You're old friends, and trust each other com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 You used your pow-ers on them one time. De-cide if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 it was for self-ish rea-sons or not, and tell them if they
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 You've known each other some time, but since
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 your pow-ers man-i-fested, you keep them at a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 They saw you use your pow-ers for self-ish or vin-dic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 tive rea-sons. Ask them who the vic-tim was, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 When you have filled all five ex-pe-ri-ence boxes, you
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 level up. Erase the marks and pick an im-prove-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/10 After you have lev-eled up five times, you qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/10 ify for ad-vanced im-prove-ments in ad-di-tion to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Create a sec-ond Bu-reau Agent to play as well as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Mark an-other two of the ba-sic moves as ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Get pro-moted some-where in the Bu-reau. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 char-ac-ter be-comes an NPC. Start a new char-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\T1/qag/m/n/9 Resolve the mys-tery of your As-tral Guide. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 Keeper makes the next mys-tery about this event,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 and should try to an-swer all re-main-ing ques-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 about it dur-ing the mys-tery (al-though there are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 sure to be new threads to in-ves-ti-gate af-ter).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+\T1/qag/m/n/9 Whether you keep your Guide and your pow-ers
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+|[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+[] 
+ []
+
+
+Overfull \hbox (62.33789pt too wide) in paragraph at lines 169--169
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 169
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 169
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 169
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 \include{psychic}
+                        [21]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 402.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 402.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 402.
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.425 \end{document}
+                     [22
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 425.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 425.
+ (/home/fryr/TexDocs/aweotw-tex/aweoftheweek.aux (/home/fryr/TexDocs/aweotw-tex/director.aux) (/home/fryr/TexDocs/aweotw-tex/investigator.aux) (/home/fryr/TexDocs/aweotw-tex/ranger.aux) (/home/fryr/TexDocs/aweotw-tex/janitor.aux) (/home/fryr/TexDocs/aweotw-tex/researcher.aux) (/home/fryr/TexDocs/aweotw-tex/outsider.aux) (/home/fryr/TexDocs/aweotw-tex/psychic.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 425.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 425.
+Package rerunfilecheck Info: File `aweoftheweek.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 23058 strings out of 480478
+ 424470 string characters out of 5905958
+ 815142 words of memory out of 5000000
+ 38638 multiletter control sequences out of 15000+600000
+ 577046 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,12n,75p,920b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagri.pfb>
+Output written on /home/fryr/TexDocs/aweotw-tex/aweoftheweek.pdf (22 pages, 196672 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

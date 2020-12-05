@@ -1,4 +1,4 @@
-\documentclass[12pt,oneside,landscape]{memoir}
+\documentclass[10pt,oneside,landscape]{memoir}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -21,6 +21,8 @@
 % https://www.overleaf.com/latex/templates/dungeon-world-playbook-template/trprzrmbfzry
 
 % package imports
+\usepackage{tgadventor}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{xcolor}
@@ -42,46 +44,37 @@
 
 % overall formatting
 \pagestyle{empty}
-\pagecolor{black}
-\color{white}
+\pagenumbering{gobble}
+\pagecolor{white}
+\color{black}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength\columnsep{8mm}
 %
-\hypersetup{linkcolor=blue,urlcolor=cyan}
+\hypersetup{linkcolor=blue,urlcolor=blue}
 \urlstyle{same}
 %
 \titleformat%
 {\chapter}%
 [display]%
-{\bfseries\LARGE}%
+{\bfseries\huge}%
 {\thechapter}%
 {0mm}%
 {\vspace{-8mm}}%
 [\vspace{-8mm}]%
 %
 \tcbset{
-    colframe=blue!50!white,
-    colback=black,
-    coltext=white,
+    colframe=white!50!black,
+    colback=white,
+    coltext=black,
     top=4mm,
     bottom=8mm,
     right=8mm,
     left=4mm,
 }
 %
-\setlist{
-    leftmargin=8mm,
-    itemsep=0mm,
-    parsep=1mm,
-    partopsep=0mm,
-}
-%
 % custom commands
-\newcommand{\goof}[2]{\textbf{\normalsize #1}\\[4mm]{\footnotesize #2}}
-\newcommand{\goofcat}[1]{{\small #1}}
-\newcommand{\whitespace}[1]{\phantom{.}\\[#1mm]}
-\newcommand{\pboverview}[2]{\textbf{\normalsize #1: }{\footnotesize #2}\\[2mm]}
+\newcommand{\pboverview}[2]{\textbf{\large #1: }{\small #2}\\[2mm]}
 
 % Title ---------------------------------------
 \makeatletter
@@ -94,20 +87,20 @@
 \textbf{\Huge \@title}
 \vspace{1cm}
 
-{\Large \@author}\\[0.25cm]
+{\LARGE \@author}\\[0.25cm]
 
-{\large \@date}
+{\Large \@date}
 
 \vspace{1.5cm}
 \begin{tikzpicture}
 % inner
-\draw[white, ultra thick] (-1.5,2.5) -- (2.5,-5);
-\draw[white, ultra thick] (2.5,-5) -- (6.5,2.5);
+\draw[black, ultra thick] (-1.5,2.5) -- (2.5,-5);
+\draw[black, ultra thick] (2.5,-5) -- (6.5,2.5);
 % outer
-\draw[white, ultra thick] (-2.5,2.5) -- (2.5,-5);
-\draw[white, ultra thick] (2.5,-5) -- (7.5,2.5);
+\draw[black, ultra thick] (-2.5,2.5) -- (2.5,-5);
+\draw[black, ultra thick] (2.5,-5) -- (7.5,2.5);
 % top
-\draw[white, ultra thick] (-2.5,2.5) -- (7.5,2.5);
+\draw[black, ultra thick] (-2.5,2.5) -- (7.5,2.5);
 \end{tikzpicture}
 
 \vspace{1cm}
@@ -124,10 +117,13 @@ Monster of the Week is copyrighted by Evil Hat Productions, LLC and Generic Game
 \maketitle
 \pagebreak
 
+\fontsize{12}{14}\selectfont
+
 % Intro ---------------------------------------
 \chapter*{What Is This?}
 \begin{multicols}{2}
-AWE of the Week is a Monster of the Week derivative providing a natural theme and atmosphere for games set in the SCP Foundation or the world of Remedy’s 2019 game, Control.  It focuses on defining the theme, running the game with Altered World Events at the heart of each mystery, and providing a host of playbook changes that are tailored to match the atmosphere.
+
+AWE of the Week is a Monster of the Week derivative providing basis for games set in the SCP Foundation or the world of Remedy’s 2019 game, Control.  It focuses on defining the theme, running the game with Altered World Events at the heart of each mystery, and providing a host of playbook changes that are tailored to match the atmosphere.
 \\[4mm]
 This is not, by any measure, a rewrite of the Monster of the Week manual.  The biggest textual changes you will find are the retooled playbooks.  There’s a couple updates to basic moves, but the rest is just suggestions for flavor.  If I didn’t mention something from the manual here, assume it didn’t need to change.
 \\[4mm]
@@ -153,7 +149,6 @@ If you haven’t played Monster of the Week yet, but you’re looking to play a 
 \end{multicols}
 \pagebreak
 %
-%
 % Theme and Setting ---------------------------------------
 %
 \chapter*{Theme, Changes, and Altered World Events}
@@ -162,16 +157,16 @@ If you haven’t played Monster of the Week yet, but you’re looking to play a 
 \section*{The Setting}
 The setting of this supplement originates within government bureaucracy.  The players’ team is not a rag-tag, tribal, or artisanal outfit of the few people who recognize the unnatural and the dangerous running amok in the world.  This is their day job.  A nine-to-five grind within an organization that is aware of, or at least claims to be aware of, all the supernatural goings-on in the world and that strives to keep it in check.  The Bureau’s job is to help everyone else remain blissfully blind.  After all, the truth would hurt their brains very badly.
 \\[4mm]
-Being a government employee means you’re no longer a Hunter; no longer an itinerant and unbound pursuer of the biggest and most dangerous game that exists.  You’re an Agent of the Bureau.  You have bosses and salary, paperwork and protocol.  You clock in and clock out of the office when you come and go.  They require you to save receipts when you work abroad so they can document the expenditures in a spreadsheet.  The routine isn’t all that bad.  It’s a savory bit of plainness wrapped around the weirdness waiting in the laboratories, or in the cross country trips to find out why one specific subway car lets people inside of it but never out again, or how someone came to own a polaroid camera where you can reach into the pictures and pull out whatever is shown within.
+Being a government employee means you’re no longer a Hunter; no longer an itinerant and unbound pursuer of the biggest and most dangerous game that exists.  You’re an Agent of the Bureau.  You have bosses and salary, paperwork and protocol.  You clock in and clock out of the office when you come and go.  They require you to save receipts when you work abroad so they can document the expenditures in a spreadsheet.  The routine isn’t all that bad.  It’s a savory bit of plainness wrapped around the weirdness waiting in the laboratories, or in the cros-country trips to find out why one specific subway car lets people inside of it but never out again, or how someone came to own a polaroid camera where you can reach into the pictures and pull out whatever is shown within.
 \\[4mm]
 The office that you work from is a paranormal entity all on its own.  A living, shifting labyrinth of seemingly endless size, only sometimes content to get wrestled into a set of cubicles; a collision of dimensional intersections; a prison of everyday objects grown hungry with appetites and desires.  If you walk out the bathroom on a different floor than you entered or find your coffee cup brackish with water that will never fully pour out… well, it wouldn’t be the first time.  Like we said: a little bit of plain, a whole lot of weird.
 
 \section*{Differences and Similarities}
-Playing this derivative means you’re looking to make some changes about the tenets of the universe as established in Monster of the Week.  The expected setting was already introduced above.  The rest of the differences are about what MotW is, and what this supplement isn’t:  MotW is about, well, monsters.  This setting is about the paranormal.  MotW likes magic.  This setting likes fringe science.  MotW drives the play towards combat.  This setting prefers exploration and hazardous containment.  MotW invites every character archetype to the party.  This setting has a tight-knit friend group who all share the same interests and want to keep it that way.  At large, MotW is a generalized breadth of content you can tailor to match all manner of tropes and pop culture.  This setting has very specific goals in mind for the style of game at play.
+Playing this derivative means you’re looking to make some changes about the tenets of the universe as established in Monster of the Week.  The expected setting was already introduced above.  The rest of the differences are about what MotW is, and what this supplement isn’t:  MotW is about, well, monsters.  This setting is about the paranormal.  MotW likes magic.  This setting likes fringe science.  MotW drives the play towards combat.  This setting prefers exploration and hazardous containment.  MotW invites every character archetype to the party.  This setting has a tight-knit friend group who all share the same interests and want to keep it that way.  At large, MotW is a generalized breadth of content you can tailor to match all manner of tropes and pop culture.  AWE has specific goals in mind for the setting and style of game at play.
 \\[4mm]
-The rest of it remains the same.  The power level of the playbooks, the level of danger in the world, and the Keeper’s motives should match across both experiences.  Harm and healing occur with the same severity and consequences (arguably, due to the reduced focus on combat, when the Keeper does hit the Agents, they can hit even harder).  Most importantly the pacing of MotW remains: episodic mysteries with the occasional extended arc.
+The rest of it remains the same.  The power level of the playbooks, the level of danger in the world, and the Keeper’s motives should match across both experiences.  Harm and healing occur with the same severity and consequences (arguably, due to the reduced focus on combat, when the Keeper does hit the Agents they can hit even harder).  Most importantly the pacing of MotW remains: episodic mysteries with the occasional extended arc.
 \\[4mm]
-Finally, the new playbooks are a mix of existing and custom text.  MotW provided a wealth of moves with the appropriate tone and action and many of those are copied over from their original form (or something similar to it, given some thematic changes) to the new books.  However, these moves don’t always land in the same place.  The new books often mix-and-match existing moves to produce a unique archetype, one that is more fitted for the setting at hand.
+Finally, the new playbooks are a mix of existing and custom text.  MotW provided a wealth of moves with the appropriate tone and action and many of those are copied over from their original form (or something similar to it, given some thematic changes) to the new books.  However, these moves don’t always land in the same place.  The new books often mix-and-match existing moves to produce a unique archetype, one that is more fitted for the atmosphere.
 
 \section*{Episodic AWEs}
 Altered World Events take the place of Monsters in this setting.  That doesn’t mean monsters won’t appear in your game, just that they're not the weekly focus.  Most times the mystery will revolve around something weird, unpredictable, alien, or altered.  Whether the situation is simply unnatural or actively hostile the Agents’ primary goal is not to destroy the paranormal source of the event, but to secure and contain it.
@@ -179,8 +174,7 @@ Altered World Events take the place of Monsters in this setting.  That doesn’t
 What makes some event a notable AWE as opposed to a regular occurence?  The presence of the paranormal counts for a lot.  However, that's only one part of the puzzle.  The real thing requires adherence to two principles:  First, something in the world has appeared which itself behaves, or causes the rest of the world to behave, in a way that it shouldn’t.  Second, the Bureau wants to intervene as soon as possible, minimize collateral, keep the media out of it, and cover up anything that leaks.  
 \\[4mm]
 Michael Sands has already written a fantastic guide for what makes a good, paranormal-oriented mystery in \href{https://genericgames.co.nz/files/MotW_more_weirdness.pdf}{MotW More Weirdness}.  Look for the “Phenomena” section.  If you’re trying to run this supplement and haven’t read that, or looked into the Tome of Mysteries expansion, I highly recommend you follow the advice there first.  It provides all the tools for designing a good, monster-less mystery, and you can run all sorts of AWEs just following that design.  What I’ve listed aside here are a couple further suggestions for specific themes and flavors.
-\whitespace{8}
-
+%
 \begin{tcolorbox}[bottom=4mm]
 \section*{Types of AWEs}
 \begin{itemize}[leftmargin=*,parsep=1mm]
@@ -208,11 +202,107 @@ Michael Sands has already written a fantastic guide for what makes a good, paran
 \end{multicols}
 \pagebreak
 %
+% Your Bureau ---------------------------------------
+%
+\chapter*{The First Session}
+\begin{multicols}{2}
+\section*{Creating a Bureau}
+Most of the standard game set-up remains the same.  Come prepared with the normal hardware.  Review the ratings, basic moves, and agendas.  Run the standard steps to create your agents (and as always, only one of each).  The big change here is that you won't have to figure out why you're a team.  That part is already settled: you're all agents in the same organization.  Instead of a team, you're going to create the Bureau itself.
+\\[4mm]
+This supplement assumes some properties of your Bureau in advance: the agency is an established Federal organization, already working within a paranormal, shifting building, led by a Director who carries a supernatural weapon and gets advised by a board of extraplanar entites.  Those assumptions are not sacred, you're welcome to change it up (though some playbooks hinge on those details more than others).  If you want your game to only occur out in the field and never inside the building, or if your game is about discovering the building for the first time, that's great!  It should work fine.
+\\[4mm]
+You won't need to answer every one of these questions to make agents or begin the game, nor will the answers directly change the rules or playbooks.  This is an aid to help everyone get their heads into the same space; to ensure you're all envisioning a similar experience ahead.  Even with the Keeper guiding the process, asking and answering these questions before and throughout agent creation is a job for everyone at the table.  Likewise, since everyone shows up to the table with a different expectation about the game's tone and character, this is a great time to identify and settle out those differences. 
+%
+\section*{Bureau of \ \rule{0.275\linewidth}{0.4pt}?}
+Although their details are secretive, your Bureau is still an officially recognized government organization.  That means it needs a proper name.  If the Federal Bureau of Investigations gets to walk into a crime scene and flash around badges proclaiming FBI for instant credibility, then you should command the same respect.  F.B.What, though?
+\section*{Leadership and Departments}
+If none of the players choose the Director playbook, who is running the Bureau?  Are they power hungry or austere?  Compassionate or authoritative?  How do they treat their interactions with the Board and other paranormal entities?
+\\[4mm]
+An established Bureau is likely to have paritioned departments: investigations, research, containment, ops, and so on.  Who is at the head of each of those?  
+\section*{The Building}
+\section*{The Board}
+\section*{Inside or Outside}
+\section*{The Last AWE?}
+what was it?
+\end{multicols}
+\pagebreak
 %
 % Basic Moves ---------------------------------------
 %
 \chapter*{Basic Move Updates}
-\begin{multicols}{4}
+\setlength\columnsep{12mm}
+\begin{multicols}{3}
+\begin{minipage}[t][0.75\textheight][t]{1\linewidth}
+\begin{pbsect}{Fringe Science (replaces Big Magic)}[]
+When you want to \textbf{create or adapt a device} to analyse, deal with, or produce a paranormal phenomenon, tell the Keeper what you want to do and roll +Weird.  On a 10+ pick two guarantees.  On a 7-9, pick one.
+\br[2mm]
+%
+\textbf{Advanced: on a 12+} take all three guarantees, or two guarantees and the Keeper adds another benefit.
+\end{pbsect}%
+\br[4mm]
+%
+\begin{blurb*}{The Keeper may choose one or more requirements:}[]%
+\holdoptions%
+    {{You’ll have to spend a lot of time (days or weeks) doing research.},
+    {You need to experiment first; expect lots of failures before you get it right.},
+    {You need some rare and weird ingredients, supplies, or equipment.},
+    {After it starts up, it’ll take time before it reaches the full effect.},
+    {It requires huge amounts of power or fuel.},
+    {You'll need a lot of people to help out.},
+    {The ritual needs to be done at a particular place and/or time.},
+    {It will have a specific side-effect or danger.}}
+\end{blurb*}%
+\br[1mm]
+%
+\begin{blurb*}{Then you pick your guarantees:}[]%
+\holdoptions%
+    {{Once started, it cannot be stopped easily.},
+    {It does exactly what you intended, and only what you intended.},
+    {It doesn’t draw attention or make you any more obvious than you already are.}}
+\end{blurb*}
+\end{minipage}
+%
+\begin{minipage}[t][0.75\textheight][t]{1\linewidth}
+\begin{pbsect}{Ritual (replaces Use Magic)}[]
+When you \textbf{perform a ritual to invoke or placate the paranormal}, say what you’re trying to achieve and how you do it, then roll +Weird.  10+ it worked without issues, choose your effect.  7-9: It worked imperfectly.  Choose one effect and one glitch.
+\br[2mm]
+%
+\textbf{Advanced: on a 12+} the Keeper adds some benefit.
+\end{pbsect}
+\br[2mm]
+%
+\begin{blurb*}{Effects:}[]%
+\holdoptions%
+    {{Bar entry into a place or portal to a specific person, item, or entity.},
+    {Trap a person, altered item, or entity.},
+    {Calm or satisfy a paranormal item or entity.},
+    {Communicate with something that you do not share a language with.},
+    {Observe another place or time.}}
+\end{blurb*}
+\brln
+%
+\begin{blurb*}{Glitches:}[]%
+\holdoptions%
+    {{The effect is weakened.},
+    {The effect has a short duration.},
+    {You take 1-harm psychic ignore-armor.},
+    {It draws immediate, unwelcome attention.},
+    {There’s a problematic side effect.}}
+\end{blurb*}
+\brln
+%
+\begin{blurb*}{The Keeper may always say that…}[]%
+\holdoptions%
+    {{The ritual requires rare or weird materials.},
+    {The ritual will take lots of time to perform.},
+    {It will require unerring focus on \rule{0.315\linewidth}{0.4pt}.},
+    {Extra equipment will need to get set up, possibly in a convoluted pattern.},
+    {You need one or two more people to help out.},
+    {You need to refer to some prior research for the details.}}
+\end{blurb*}
+\end{minipage}
+%
+\begin{minipage}[t][0.75\textheight][t]{1\linewidth}
 \begin{pbsect}{Investigate a Mystery}[]
 When you \textbf{investigate a mystery}, roll +Sharp. On a 10+ hold 2, and on a 7-9 hold 1. One hold can be spent to ask the Keeper one of the following questions:
 \holdoptions%
@@ -223,72 +313,15 @@ When you \textbf{investigate a mystery}, roll +Sharp. On a 10+ hold 2, and on a 
     Where did it go?,
     Who is it connected to?,
     What is being concealed here?}
-\end{pbsect}
-%
-\begin{pbsect}{Fringe Science (replaces Big Magic)}
-When you want to \textbf{create or adapt a device} to analyse, deal with, or produce a paranormal phenomenon, tell the Keeper what you want to do and roll +Weird.  On a 10+ pick two guarantees.  On a 7-9, pick one.
-\br[2mm]
-%
-Advanced: 12+ take all three guarantees, or two guarantees and the Keeper adds another benefit.
-\end{pbsect}%
-\br[2mm]
-%
-\begin{blurb*}{The Keeper may choose one or more requirements:}%
-\holdoptions%
-    {{You’ll have to spend a lot of time (days or weeks) doing research.},
-    {You need to experiment first; expect lots of failures before you get it right.},
-    {You need some rare and weird ingredients, supplies, or equipment.},
-    {After it starts up, it’ll take time before it reaches the full effect.},
-    {It requires huge amounts of power or fuel.},
-    {You need a lot of people to help out.},
-    {The ritual needs to be done at a particular place and/or time.},
-    {It will have a specific side-effect or danger.}}
-\end{blurb*}
-%
-\begin{blurb*}{Then you pick your guarantees:}
-\holdoptions%
-    {{Once started, it cannot be stopped easily.},
-    {It does exactly what you intended, and only what you intended.},
-    {It doesn’t draw attention or make you any more obvious than you already are.}}
-\end{blurb*}
-%
-\begin{pbsect}{Ritual (replaces Use Magic)}
-When you \textbf{perform a ritual to invoke or placate the paranormal}, say what you’re trying to achieve and how you do it, then roll +Weird.  10+ it worked without issues, choose your effect.  7-9: It worked imperfectly.  Choose one effect and one glitch.
 \brln
-%
-Advanced: 12+ the Keeper adds some benefit.
-\end{pbsect}
-%
-\begin{blurb*}{Effects:}
-\holdoptions%
-    {{Bar a place or portal to a specific person, item, or entity.},
-    {Trap a person, altered item, or entity.},
-    {Calm or satisfy a paranormal item or entity.},
-    {Communicate with something that you do not share a language with.},
-    {Observe another place or time.}}
-\end{blurb*}
-%
-\begin{blurb*}{Glitches:}
-\holdoptions%
-    {{The effect is weakened.},
-    {The effect has a short duration.},
-    {You take 1-harm psychic ignore-armor.},
-    {The ritual draws immediate, unwelcome attention.},
-    {There’s a problematic side effect.}}
-\end{blurb*}
+\textbf{Advanced: On a 12+} you may ask the Keeper any question you want about the mystery, not just the listed ones.
 
-\begin{blurb*}{The Keeper may say that…}
-\holdoptions%
-    {{The ritual requires rare or weird materials.},
-    {The ritual will take extra time to perform.},
-    {The ritual requires you to focus your attention on \rule{0.3\linewidth}{0.4pt}.},
-    {The ritual requires you to set up some equipment.},
-    {You need one or two more people to help you out.},
-    {You need to refer to some prior research for the details.}}
-\end{blurb*}
+\end{pbsect}
+\end{minipage}
 
 \end{multicols}
 \pagebreak
+\setlength\columnsep{8mm}
 
 % Playbook Overview ---------------------------------------
 \chapter*{Bureau Agents Overview}
@@ -300,7 +333,7 @@ Advanced: 12+ the Keeper adds some benefit.
 \begin{itemize}
 
 \item Act like you’re the only one in the Bureau who can solve these problems (because you are).
-\item Find the altered world events and contain them.
+\item Keep the world safe from the paranormal.  Their lives are in your hands.
 \item Play your agent like they’re a real person.
 
 \end{itemize}
@@ -310,7 +343,7 @@ Advanced: 12+ the Keeper adds some benefit.
 {A close port of the Chosen.  The signature weapon made a great parallel to the service weapon.  Further, the chosen was already themed around their importance.  The design leans more toward playing Trench than Jesse, since Jesse is so many other things that became their own books as well (the outsider, the psychic, etc).  This means you’re more strictly “the boss” than “the savior”.}
 
 \pboverview{The Investigator}
-{Started off as the Flake, with the end result mixing in flavor from the Searcher, too.  The investigator isn’t as focused on being the conspiracy nut in this setting.  It’s more about life as a rank and file paranormal detective.  In Control these are the agents you read about in the various reports scattered throughout the oldest house.  The ones who get flown out here and there to do the grunt work of figuring out whether a suspected AWE is truly paranormal, or just another loony daydream.}
+{Started off as the Flake, with the end result mixing in flavor from the Searcher, too.  The investigator isn’t as focused on being the conspiracy nut in this setting.  It’s more about life as a rank and file paranormal detective.  In Control these are the agents you read about in the various memos scattered throughout the oldest house.  The ones who get flown out here and there to do the grunt work of figuring out whether a suspected AWE is truly paranormal, or just another loony daydream.}
 
 \pboverview{The Ranger}
 {The Ranger was the easiest book to transition over, it’s almost a 1:1 replica of the Professional; that book has a perfect fit for the highly trained Ranger operatives in control.  The professional’s Agency mechanics were dropped, since all players are involved with the Bureau already.  In replacement, you get a squad of other rangers at your back.  As you might expect from its source, this book is far and away the most combat oriented and militaristic, especially relative to the toned back emphasis on combat.}
@@ -371,8 +404,22 @@ Advanced: 12+ the Keeper adds some benefit.
 \item \textbf{About Monster of the Week:} \url{https://www.genericgames.co.nz/motw/}
 \item \textbf{MotW resources:} \url{https://www.evilhat.com/home/monster-of-the-week-resources/}
 \item \textbf{MotW More Weirdness:} \url{https://genericgames.co.nz/files/MotW_more_weirdness.pdf/}
-\item \textbf{{\LaTeX} source code for this PDF:} \url{https://github.com/rfkeepers/aweotw-tex}
 
 \end{itemize}
+%
+\brln
+%
+\section*{Safety Tools}
+\begin{itemize}
+
+\item \textbf{TTRPG Safety:} \url{https://drive.google.com/drive/folders/114jRmhzBpdqkAlhmveis0nmW73qkAZCj}
+\item \textbf{Risk Management:} \url{https://gnomestew.com/safety-as-risk-management/}
+\item \textbf{Safety Primer:} \url{https://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/}    
+
+\end{itemize}
+%
+\br[6mm]
+%
+\LaTeX \ source code for this PDF: \url{https://github.com/rfkeepers/aweotw-tex}
 \pagebreak
 \end{document}
