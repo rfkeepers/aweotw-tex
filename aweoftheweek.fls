@@ -267,6 +267,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/tex-gyre/ec-qagr.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/tex-gyre/ec-qagb.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/tex-gyre/ec-qagb.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/tex-gyre/ec-qagri.tfm
 INPUT /usr/share/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
 INPUT /usr/share/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qagr.tfm
@@ -326,8 +327,8 @@ INPUT /home/fryr/TexDocs/aweotw-tex/psychic.aux
 INPUT /home/fryr/TexDocs/aweotw-tex/psychic.aux
 INPUT /home/fryr/TexDocs/aweotw-tex/aweoftheweek.out
 INPUT /home/fryr/TexDocs/aweotw-tex/aweoftheweek.out
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/tex-gyre/qagri.pfb
